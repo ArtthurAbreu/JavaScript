@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="PT-BR">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+
+let lista = prompt("Digite uma lista de numeros separados por virgula: ");
+
+let numeros = lista.split(",");
+let soma = 0;
+
+for(let i = 0;i < numeros.length;i++){
+       soma += parseFloat(numeros[i]);
+  }  
+ let media = soma / numeros.length;
+
+  console.log(`A media dos numeros é: ${media}`);
+
+  </script>
+  <title>Questao 04</title>
+</head>
+<body>
+  
+</body>
+</html>
